@@ -1,6 +1,6 @@
 # vllm-cn
 ----
-根据 [vllm 测试结果]()，vllm 能极大提高大语言模型推理阶段的吞吐性能，这对计算资源有限，受限于推理效率的一些情况来说无疑是一大福音
+根据 [官方首页文章](https://vllm.ai/)，vllm 能极大提高大语言模型推理阶段的吞吐性能，这对计算资源有限，受限于推理效率的一些情况来说无疑是一大福音
 ![](https://vllm.ai/assets/figures/perf_a100_n1_light.png)
 
 但是截止 2023.7.8，[vllm 文档](https://vllm.readthedocs.io/en/latest/models/supported_models.html) 显示其尚未支持目前热度较高的一些中文大模型，比如 baichuan-inc/baichuan-7B, THUDM/chatglm-6b
