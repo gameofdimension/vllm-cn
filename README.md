@@ -14,9 +14,9 @@
 baichuan-inc/baichuan-7B 的 vllm 适配测试可参考 [这里](https://github.com/gameofdimension/vllm-cn/blob/master/vllm_baichuan.ipynb)。也可直接 colab 运行<a href="https://colab.research.google.com/github/gameofdimension/vllm-cn/blob/master/vllm_baichuan.ipynb"><img alt="Build" src="https://colab.research.google.com/assets/colab-badge.svg"></a>。但是因为模型较大，需要选用 A100 gpu 或者更高配置
 
 
-### 下一步
-- [ ] 支持 chatglm, moss 等其他中文大语言模型
-- [ ] 实现张量并行(tensor parallel)。但是苦于本人 gpu 资源有限，何时能完成有很大不确定性
+### 现况
+- [chatglm2/3，包括对 tp 的支持](https://github.com/vllm-project/vllm/pull/1558)，code reviewing
+- 官方已实现[若干中文大语言模型](https://github.com/vllm-project/vllm/tree/main/vllm/model_executor/models)：aquila，baichuan，qwen
 
 ### 感谢
 
